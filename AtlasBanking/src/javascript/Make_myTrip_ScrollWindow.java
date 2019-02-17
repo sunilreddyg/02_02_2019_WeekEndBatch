@@ -23,11 +23,11 @@ public class Make_myTrip_ScrollWindow
 		
 		//scroll window using javascript
 	   ((JavascriptExecutor)driver)
-	   .executeScript("window.scroll(300,200)");
+	   .executeScript("window.scroll(300,100)");
 	   Thread.sleep(5000);
 	   
-		//Select Next month
-		new WebDriverWait(driver, 50)
+		//Wait and Select Next month button
+		new WebDriverWait(driver, 100)
 		.until(ExpectedConditions.visibilityOfElementLocated
 		(By.xpath("(//span[@class='ui-icon ui-icon-circle-triangle-e'])[2]"))).click();
 	  
