@@ -1,4 +1,6 @@
-/waitcommand/
-/waitcommands/
-/findelements/
-/Collections/
+/method_parameters/
+/pagefactory/
+/methodtypes/
+/Repository.class
+/method_return_types/
+/webdriver_locator/

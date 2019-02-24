@@ -16,6 +16,9 @@ public class Webtable_ReadData_From_SpecificRow_And_Cell {
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.get("http://content.icicidirect.com/IdirectContent/Markets/MarketOverview.aspx");
 		driver.manage().window().maximize();
+		
+		WebElement Markets=driver.findElement(By.xpath("//a[text()='markets']"));
+		Markets.click();
 
 		
 		//identify table
