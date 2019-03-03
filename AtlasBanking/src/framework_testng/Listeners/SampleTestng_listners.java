@@ -4,17 +4,19 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
-public class My_listeners implements ITestListener
+public class SampleTestng_listners implements ITestListener
 {
 
 	@Override
-	public void onTestStart(ITestResult result) {
+	public void onTestStart(ITestResult result)
+	{
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	public void onTestSuccess(ITestResult result) {
+	public void onTestSuccess(ITestResult result)
+	{
 		// TODO Auto-generated method stub
 		
 	}
@@ -48,6 +50,5 @@ public class My_listeners implements ITestListener
 		// TODO Auto-generated method stub
 		
 	}
-	
 
 }
