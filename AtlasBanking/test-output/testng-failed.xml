@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [default]">
+  <listeners>
+    <listener class-name="framework_testng.Listeners.Run_Listeners"/>
+  </listeners>
+  <test thread-count="5" name="test1(failed)">
     <classes>
-      <class name="framework_testng.Testng_Method_Dependencies">
+      <class name="framework_testng.Listeners.MyTest">
         <methods>
-          <include name="User_login"/>
-          <include name="Browser_launch"/>
-          <include name="Verify_Email_At_Sentemails"/>
-          <include name="ComposeEmail"/>
-          <include name="App_Load"/>
-          <include name="Close_browser"/>
-          <include name="SetUp_browser"/>
+          <include name="tc002"/>
+          <include name="tc003"/>
+          <include name="tc005"/>
         </methods>
-      </class> <!-- framework_testng.Testng_Method_Dependencies -->
+      </class> <!-- framework_testng.Listeners.MyTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- test1(failed) -->
+</suite> <!-- Failed suite [default] -->

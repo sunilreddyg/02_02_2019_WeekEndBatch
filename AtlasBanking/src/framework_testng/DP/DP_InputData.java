@@ -40,7 +40,6 @@ public class DP_InputData
 		 * 
 		 * Note;--> should define along with method name class name as well
 		 */
-		
 	}
 	
 

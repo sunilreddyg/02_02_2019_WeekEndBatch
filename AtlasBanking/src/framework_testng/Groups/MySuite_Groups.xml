@@ -4,11 +4,10 @@
 
 	<groups>
 		<run>
-			<include name="G1"></include>
-			<include name="G2"></include>			
+			<include name="G2"></include>
 		</run>
 	</groups>
-	
+
 	<test name="testfirefox">
 		<classes>
 			<class name="framework_testng.Groups.TestSuite1"></class>

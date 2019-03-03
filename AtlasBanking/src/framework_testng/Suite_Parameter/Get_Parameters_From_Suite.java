@@ -20,12 +20,12 @@ public class Get_Parameters_From_Suite
 		if(browsername.equalsIgnoreCase("firefox"))
 		{
 			driver=new FirefoxDriver();
-			Reporter.log("chrome browser launched");
+			Reporter.log("firefox browser launched");
 		}
 		else if(browsername.equalsIgnoreCase("chrome"))
 		{
 			driver=new ChromeDriver();
-			Reporter.log("firefox browser launched");
+			Reporter.log("chrome browser launched");
 		}
 	}
 	
